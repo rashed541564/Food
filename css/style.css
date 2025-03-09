@@ -1,0 +1,1208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #213547;
+
+}
+
+h1 {
+    font-size: 35px;
+    color: #213547;
+}
+
+h3 {
+    color: #213547;
+}
+
+h5 {
+    color: sandybrown;
+    margin: 35px 0px 0px 0px;
+}
+
+header {
+    background-color: beige;
+    align-items: center;
+    padding: 20px 28px;
+    background-image: url(../image/img-hero.png\ 1\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.logo {}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    font-weight: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner {}
+
+.banner span {
+    color: rgb(255 203 69);
+}
+
+.banner h1 {}
+
+
+
+.banner p {}
+
+.banner button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.serve {
+    text-align: center;
+}
+
+.serve h6 {
+    color: #ffac4b;
+    margin: 44px 0px 16px 0;
+}
+
+.serve h1 {
+    color: #213547;
+    margin: 10px;
+}
+
+.serve p {
+    color: #213547;
+}
+
+.box {
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    color: #213553;
+}
+
+.container {}
+
+.menu {
+
+    text-align: center;
+
+}
+
+.menu h5 {}
+
+.menu h1 {
+    margin: 10px 0 0 0;
+}
+
+.menu p {}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    text-align: center;
+}
+
+.chopstick {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.chopstick img {
+    background-color: #0000001f;
+    align-items: center;
+
+}
+
+.chopstick h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.chopstick p {}
+
+.chopstick span {
+    text-align: left;
+}
+
+.kiwi {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.kiwi img {
+    background-color: #0000001f;
+}
+
+.kiwi h3 {
+    text-align: center;
+}
+
+.kiwi p {}
+
+
+.sandwich {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.sandwich img {
+    background-color: #0000001f;
+}
+
+.sandwich h3 {
+    text-align: center;
+}
+
+.sandwich p {}
+
+
+.spagetti {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.spagetti img {
+    background-color: #0000001f;
+}
+
+.spagetti h3 {
+    text-align: center;
+}
+
+.spagetti p {}
+
+/* message section */
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.top {}
+
+.top-item {}
+
+.image {}
+
+.root {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.discount {}
+
+.discount h2 {
+    text-align: center;
+}
+
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    color: #213547;
+}
+
+h1 {
+    font-size: 35px;
+    color: #213547;
+}
+
+h3 {
+    color: #213547;
+}
+
+h5 {
+    color: sandybrown;
+    margin: 35px 0px 0px 0px;
+    align-items: center;
+}
+
+header {
+    background-color: beige;
+    align-items: center;
+    padding: 20px 28px;
+    background-image: url(../image/img-hero.png\ 1\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    font-weight: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner {
+    color: #213547;
+}
+
+.banner span {
+    color: rgb(255 203 69);
+}
+
+.banner h1 {}
+
+
+
+.banner p {
+    color: #213547;
+}
+
+.banner button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.serve {
+    text-align: center;
+}
+
+.serve h6 {
+    color: #ffac4b;
+    margin: 44px 0px 16px 0;
+}
+
+.serve h1 {
+    color: #213547;
+    margin: 10px;
+}
+
+.serve p {
+    color: #213547;
+}
+
+.box {
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    color: #213553;
+}
+
+.container {}
+
+.menu {
+
+    text-align: center;
+
+}
+
+.menu h5 {}
+
+.menu h1 {
+    margin: 10px 0 0 0;
+}
+
+.menu p {}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    text-align: center;
+}
+
+.chopstick {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.chopstick img {
+    background-color: #0000001f;
+    align-items: center;
+
+}
+
+.chopstick h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.chopstick p {}
+
+.chopstick span {
+    text-align: left;
+}
+
+.kiwi {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.kiwi img {
+    background-color: #0000001f;
+}
+
+.kiwi h3 {
+    text-align: center;
+}
+
+.kiwi p {}
+
+
+.sandwich {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.sandwich img {
+    background-color: #0000001f;
+}
+
+.sandwich h3 {
+    text-align: center;
+}
+
+.sandwich p {}
+
+
+.spagetti {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.spagetti img {
+    background-color: #0000001f;
+}
+
+.spagetti h3 {
+    text-align: center;
+}
+
+.spagetti p {}
+
+/* message section */
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.root {
+    display: flex;
+    justify-content: space-around
+}
+
+
+.top-image {
+    display: inline-block;
+}
+
+
+
+.root {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.discount {
+    text-align: center;
+    background-image: url(../image/one\ unsplash_-YHSwy6uqvk.png\ 11.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 59px;
+    align-items: center;
+    margin: 20px 100px 50px 100px;
+}
+
+.discount h2 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #21354778;
+    color: #ffac4b;
+}
+
+.foot {}
+
+.foot img {}
+
+.foot p {
+    color: white;
+}
+
+.Company {}
+
+.Company h4 {}
+
+.Company ul {
+    font-weight: 600;
+    list-style: none;
+}
+
+.Company ul li {}
+
+.Company ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Policy {}
+
+.Policy h4 {}
+
+.Policy ul {
+    font-weight: 600;
+    list-style: none;
+}
+
+.Policy ul li {}
+
+.Policy ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.touch {}
+
+.touch h4 {}
+
+.touch p {
+    color: white;
+
+}
+
+.fa-brands {
+    margin: 0 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.fontawesome {
+
+    background-color: #21354778;
+
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
+
+
+
+body {
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #213547;
+
+}
+
+h1 {
+    font-size: 35px;
+    color: #213547;
+}
+
+h3 {
+    color: #213547;
+}
+
+h5 {
+    color: sandybrown;
+    margin: 35px 0px 0px 0px;
+}
+
+header {
+    background-color: beige;
+    align-items: center;
+    padding: 20px 28px;
+    background-image: url(../image/img-hero.png\ 1\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.logo {}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    font-weight: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner {}
+
+.banner span {
+    color: rgb(255 203 69);
+}
+
+.banner h1 {}
+
+
+
+.banner p {}
+
+.banner button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.serve {
+    text-align: center;
+}
+
+.serve h6 {
+    color: #ffac4b;
+    margin: 44px 0px 16px 0;
+}
+
+.serve h1 {
+    color: #213547;
+    margin: 10px;
+}
+
+.serve p {
+    color: #213547;
+}
+
+.box {
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    color: #213553;
+}
+
+.container {}
+
+.menu {
+
+    text-align: center;
+
+}
+
+.menu h5 {}
+
+.menu h1 {
+    margin: 10px 0 0 0;
+}
+
+.menu p {}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    text-align: center;
+}
+
+.chopstick {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.chopstick img {
+    background-color: #0000001f;
+    align-items: center;
+
+}
+
+.chopstick h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.chopstick p {}
+
+.chopstick span {
+    text-align: left;
+}
+
+.kiwi {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.kiwi img {
+    background-color: #0000001f;
+}
+
+.kiwi h3 {
+    text-align: center;
+}
+
+.kiwi p {}
+
+
+.sandwich {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.sandwich img {
+    background-color: #0000001f;
+}
+
+.sandwich h3 {
+    text-align: center;
+}
+
+.sandwich p {}
+
+
+.spagetti {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.spagetti img {
+    background-color: #0000001f;
+}
+
+.spagetti h3 {
+    text-align: center;
+}
+
+.spagetti p {}
+
+/* message section */
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.top {}
+
+.top-item {}
+
+.image {}
+
+.root {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.discount {}
+
+.discount h2 {
+    text-align: center;
+}
+
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    color: #213547;
+}
+
+h1 {
+    font-size: 35px;
+    color: #213547;
+}
+
+h3 {
+    color: #213547;
+}
+
+h5 {
+    color: sandybrown;
+    margin: 35px 0px 0px 0px;
+    align-items: center;
+}
+
+header {
+    background-color: beige;
+    align-items: center;
+    padding: 20px 28px;
+    background-image: url(../image/img-hero.png\ 1\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    font-weight: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner {
+    color: #213547;
+}
+
+.banner span {
+    color: rgb(255 203 69);
+}
+
+.banner h1 {}
+
+
+
+.banner p {
+    color: #213547;
+}
+
+.banner button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.serve {
+    text-align: center;
+}
+
+.serve h6 {
+    color: #ffac4b;
+    margin: 44px 0px 16px 0;
+}
+
+.serve h1 {
+    color: #213547;
+    margin: 10px;
+}
+
+.serve p {
+    color: #213547;
+}
+
+.box {
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    color: #213553;
+}
+
+.container {}
+
+.menu {
+
+    text-align: center;
+
+}
+
+.menu h5 {}
+
+.menu h1 {
+    margin: 10px 0 0 0;
+}
+
+.menu p {}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    text-align: center;
+}
+
+.chopstick {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.chopstick img {
+    background-color: #0000001f;
+    align-items: center;
+
+}
+
+.chopstick h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.chopstick p {}
+
+.chopstick span {
+    text-align: left;
+}
+
+.kiwi {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.kiwi img {
+    background-color: #0000001f;
+}
+
+.kiwi h3 {
+    text-align: center;
+}
+
+.kiwi p {}
+
+
+.sandwich {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+
+}
+
+.sandwich img {
+    background-color: #0000001f;
+}
+
+.sandwich h3 {
+    text-align: center;
+}
+
+.sandwich p {}
+
+
+.spagetti {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+}
+
+.spagetti img {
+    background-color: #0000001f;
+}
+
+.spagetti h3 {
+    text-align: center;
+}
+
+.spagetti p {}
+
+/* message section */
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.root {
+    display: flex;
+    justify-content: space-around
+}
+
+
+.top-image {
+    display: inline-block;
+}
+
+
+
+.root {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.discount {
+    text-align: center;
+    background-image: url(../image/one\ unsplash_-YHSwy6uqvk.png\ 11.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 59px;
+    align-items: center;
+    margin: 20px 100px 50px 100px;
+}
+
+.discount h2 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    color: rgba(0, 0, 0, 0.692);
+    background-color: rgb(255 203 69);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    font-weight: 800;
+    margin: 0px 0px 0 50px;
+    ];
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #21354778;
+    color: #ffac4b;
+}
+
+.foot {}
+
+.foot img {}
+
+.foot p {
+    color: white;
+}
+
+.Company {}
+
+.Company h4 {}
+
+.Company ul {
+    font-weight: 600;
+    list-style: none;
+}
+
+.Company ul li {}
+
+.Company ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Policy {}
+
+.Policy h4 {}
+
+.Policy ul {
+    font-weight: 600;
+    list-style: none;
+}
+
+.Policy ul li {}
+
+.Policy ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.touch {}
+
+.touch h4 {}
+
+.touch p {
+    color: white;
+
+}
+
+.fa-brands {
+    margin: 0 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.fontawesome {
+
+    background-color: #21354778;
+
+    text-align: center;
+}
